@@ -1,11 +1,16 @@
 import googleTrends from 'google-trends-api';
 import axios from 'axios';
 
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://secret-sands-51319.herokuapp.com'
+    : 'http://localhost:5000';
+
 const getData = (info, keyword) =>
   new Promise((resolve, reject) => {
     console.log('KEYWORD --> ', keyword);
     axios
-      .get(`http://localhost:5000/${info}?keyword=${keyword}`)
+      .get(`${baseUrl}/${info}?keyword=${keyword}`)
       .then(res => {
         return resolve(res.data);
       })

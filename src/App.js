@@ -109,14 +109,26 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div className="App">
+        <div>
+          <h3>Google Trend Visualization</h3>
+        </div>
         <div
           style={{
             width: '40vw',
             display: 'flex',
             justifyContent: 'flex-start',
+            alignItems: 'center',
             marginBottom: '14px'
           }}
         >
+          <div
+            style={{
+              color: '#363636',
+              marginRight: '10px'
+            }}
+          >
+            Keyword
+          </div>
           <input
             style={{
               border: '0px',
