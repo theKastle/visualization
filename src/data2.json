@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {
+      "id": "this"
+    },
+
+    {
+      "id": "cat"
+    },
+
+    {
+      "id": "smelly"
+    }
+  ],
+  "links": [
+    { "source": "this", "target": "cat", "value": 7 },
+    { "source": "smelly", "target": "cat", "value": 1 }
+  ]
+}

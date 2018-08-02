@@ -1,0 +1,35 @@
+[
+  { "id": "North Korea", "value": 100, "type": "Country in East Asia" },
+  { "id": "News", "value": 16, "type": "Topic" },
+  { "id": "South Korea", "value": 7, "type": "Country in East Asia" },
+  {
+    "id": "United States of America",
+    "value": 7,
+    "type": "Country in North America"
+  },
+  { "id": "Korea", "value": 7, "type": "Sovereign state" },
+  { "id": "War", "value": 5, "type": "Topic" },
+  { "id": "Donald Trump", "value": 4, "type": "45th U.S. President" },
+  { "id": "China", "value": 3, "type": "Country in East Asia" },
+  { "id": "Nuclear weapon", "value": 3, "type": "Topic" },
+  { "id": "Russia", "value": 2, "type": "Country" },
+  { "id": "Missile", "value": 2, "type": "Topic" },
+  { "id": "North Korea–South Korea relations", "value": 2, "type": "Topic" },
+  {
+    "id": "Kim Jong-un",
+    "value": 2,
+    "type": "Chairman of the Workers' Party of Korea"
+  },
+  { "id": "Country", "value": 1, "type": "Topic" },
+  { "id": "Bomb", "value": 1, "type": "Topic" },
+  { "id": "President", "value": 1, "type": "Job title" },
+  { "id": "Iran", "value": 1, "type": "Country in the Middle East" },
+  { "id": "Population", "value": 1, "type": "Topic" },
+  { "id": "Threat", "value": 1, "type": "Topic" },
+  { "id": "Weapon", "value": 1, "type": "Topic" },
+  { "id": "Military", "value": 1, "type": "Professional field" },
+  { "id": "Breaking news", "value": 1, "type": "Topic" },
+  { "id": "World War III", "value": 1, "type": "Topic" },
+  { "id": "Dennis Rodman", "value": 1, "type": "American basketball player" },
+  { "id": "Documentary film", "value": 0, "type": "Topic" }
+]
